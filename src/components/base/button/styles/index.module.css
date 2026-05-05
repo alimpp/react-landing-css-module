@@ -1,0 +1,19 @@
+.baseButton {
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  background: rgb(56, 56, 100);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.bgRed {
+  background: red;
+}
+
+.bgDanger {
+  background: rgb(86, 17, 17);
+}

@@ -1,0 +1,30 @@
+.baseInput {
+  width: 100%;
+  border: 1px solid #9898981c;
+  outline: none;
+
+  border-radius: 5px;
+  padding: 10px 5px;
+  background: none;
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.baseInput::placeholder {
+  font-size: 13px;
+  font-weight: 400;
+}
+.label {
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.errorState {
+  border: 1px solid red;
+}
+.textError {
+  color: red;
+  font-size: 12px;
+  font-weight: 100;
+  padding-top: 5px;
+}
