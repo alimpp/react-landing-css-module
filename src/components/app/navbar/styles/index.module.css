@@ -1,0 +1,30 @@
+.appNavbar {
+  height: 70px;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  padding: 0 40px;
+  border-bottom: 1px solid #00000011;
+}
+.logoContent {
+  width: 150px;
+  cursor: pointer;
+}
+.logoTitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: red;
+}
+.logoSubTitle {
+  font-size: 13px;
+  font-weight: 500;
+}
+.navItems {
+  display: flex;
+}
+.navItems span {
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0 10px;
+}
