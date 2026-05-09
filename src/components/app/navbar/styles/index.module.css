@@ -30,3 +30,28 @@
   cursor: pointer;
   padding: 0 10px;
 }
+
+.menuContent {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .appNavbar {
+    padding: 0;
+  }
+  .logoContent {
+    padding: 0 10px;
+  }
+  .navItems {
+    display: none;
+  }
+  .logoContent {
+    width: 50%;
+  }
+  .menuContent {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    padding: 0 10px;
+  }
+}

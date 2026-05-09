@@ -1,7 +1,7 @@
 import Styled from "./styles/index.module.css";
 import BaseButton from "../../base/button/index";
 
-const AppNavabr = ({ scrollToSection, openConectWithSupport }) => {
+const AppNavabr = ({ scrollToSection, sidemenuController }) => {
   const navItems = [
     { id: 1, title: "Home", val: "hero" },
     { id: 2, title: "Products", val: "products" },
@@ -13,10 +13,9 @@ const AppNavabr = ({ scrollToSection, openConectWithSupport }) => {
     if (scrollToSection) scrollToSection(item.val);
   };
 
-  const conectWithSupport = () => {
-    if (openConectWithSupport) openConectWithSupport();
+  const handleSidemenuController = (val) => {
+    if (sidemenuController) sidemenuController(val);
   };
-
   return (
     <div className={`${Styled.appNavbar} flex w-full align-center`}>
       <div className={`${Styled.logoContent} flex flex-column`}>
@@ -31,6 +30,13 @@ const AppNavabr = ({ scrollToSection, openConectWithSupport }) => {
             {item.title}
           </span>
         ))}
+      </div>
+      <div className={`${Styled.menuContent}`}>
+        <img
+          src="icons\menu.svg"
+          alt="menu.svg"
+          onClick={() => handleSidemenuController(true)}
+        />
       </div>
     </div>
   );
