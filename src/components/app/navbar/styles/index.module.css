@@ -2,9 +2,10 @@
   height: 70px;
   position: fixed;
   top: 0;
-  background: #fff;
+  background: #000;
   padding: 0 40px;
-  border-bottom: 1px solid #00000011;
+  color: #fff;
+  border-bottom: 1px solid #ffffff1e;
 }
 .logoContent {
   width: 150px;
@@ -13,18 +14,19 @@
 .logoTitle {
   font-size: 16px;
   font-weight: 500;
-  color: red;
+  color: rgb(238, 96, 96);
 }
 .logoSubTitle {
   font-size: 13px;
   font-weight: 500;
+  color: rgb(114, 127, 224);
 }
 .navItems {
   display: flex;
 }
 .navItems span {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
   cursor: pointer;
   padding: 0 10px;
 }

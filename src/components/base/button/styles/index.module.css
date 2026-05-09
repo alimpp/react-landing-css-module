@@ -2,7 +2,7 @@
   padding: 10px 10px;
   border: none;
   outline: none;
-  background: rgb(56, 56, 100);
+  background: rgb(114, 127, 224);
   border-radius: 5px;
   color: #fff;
   font-size: 12px;
@@ -11,7 +11,7 @@
 }
 
 .bgRed {
-  background: red;
+  background: rgb(238, 96, 96);
 }
 
 .bgDanger {

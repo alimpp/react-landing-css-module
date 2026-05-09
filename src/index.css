@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background-color: #000;
+  color: #fff;
   font-family:
     system-ui,
     -apple-system,
@@ -18,7 +20,12 @@ code {
   font-family:
     source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-
+.text-primary {
+  color: rgb(114, 127, 224);
+}
+.text-red {
+  color: rgb(238, 96, 96);
+}
 .container {
   overflow: hidden;
   padding: 70px 150px;
@@ -34,6 +41,12 @@ code {
 }
 .mb-10 {
   margin-bottom: 10;
+}
+.mx-10 {
+  margin: 0 10px;
+}
+.mx-5 {
+  margin: 0 5px;
 }
 .px-10 {
   padding: 0 10px;
@@ -98,5 +111,35 @@ code {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 1600px) {
+  .container {
+    padding: 70px 120px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    padding: 70px 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 70px 80px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 70px 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 70px 30px;
   }
 }
