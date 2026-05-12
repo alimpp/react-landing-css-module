@@ -20,6 +20,9 @@ code {
   font-family:
     source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+.bg-red{
+  background: red;
+}
 .text-primary {
   color: rgb(114, 127, 224);
 }
@@ -31,16 +34,16 @@ code {
   padding: 70px 150px;
 }
 .mt-5 {
-  margin-top: 5;
+  margin-top: 5px;
 }
 .mt-10 {
-  margin-top: 10;
+  margin-top: 10px;
 }
 .mb-5 {
-  margin-bottom: 5;
+  margin-bottom: 5px;
 }
 .mb-10 {
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 .mx-10 {
   margin: 0 10px;
